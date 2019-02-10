@@ -14,7 +14,7 @@
     - [Documentation](#documentation)
     - [Server-Side (Go)](#server-side-go)
     - [Client-Side (HTML/CSS/Vanilla JS)](#client-side-htmlcssvanilla-js)
-      - [Ops](#ops)
+    - [Ops](#ops)
 
 ## Features
 
@@ -36,14 +36,13 @@
 
 ### Server-Side (Go)
 
-- [] db schema
-- [ ] endpoints model
+- [x] user model
+- [x] endpoints model
+- [x] jwt authentication
+- [x] template renderer
 - [ ] stub routes
 - [ ] cURL command generator func
 - [ ] validate `JSON` server-side on `/create`
-- [ ] visitor tracking on `/api/:slug`
-- [ ] (user option) API key [generated](https://echo.labstack.com/middleware/key-auth) on `/create`
-- [ ] (user option) API key enforced on `/api/:slug`
 - [ ] write tests
 
 ### Client-Side (HTML/CSS/Vanilla JS)
@@ -56,7 +55,7 @@
   - [ ] gallery
   - [ ] profile
 
-#### Ops
+### Ops
 
 - [ ] heroku setup with heroku-postgres
 - [ ] integrate circleci
